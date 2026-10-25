@@ -1,0 +1,15 @@
+Example run against data/orders.json and data/nomenclature_1c.csv
+
+orders_received: 31
+report_rows: 54
+duplicates: 1
+cancelled: 1
+art_not_found: 2
+price_mismatch: 3
+stock_shortage: 4
+nomenclature_duplicates: 1
+invalid_records: 1
+
+The neighbouring example_attention_report.csv contains all 18 problem rows.
+The generated reconciliation_report.csv contains every one of the 54 order lines,
+including the rows marked READY_TO_TRANSFER.

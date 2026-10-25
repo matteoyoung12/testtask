@@ -1,0 +1,8 @@
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime-only files (example and submitted reports are tracked explicitly)
+output/*.tmp

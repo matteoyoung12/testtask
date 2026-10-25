@@ -1,0 +1,5 @@
+[2026-10-24T19:34:05+00:00] WARNING Duplicate SKU in nomenclature. {"sku":"TS-1017","lines":[18,19]}
+[2026-10-24T19:34:05+00:00] WARNING Duplicate marketplace order ignored for reservation. {"order_id":"MP-24009","kind":"DUPLICATE_ORDER_EXACT"}
+[2026-10-24T19:34:05+00:00] WARNING Order total differs from its lines. {"order_id":"MP-24025","declared_cents":10320,"calculated_cents":9820}
+[2026-10-24T19:34:05+00:00] WARNING Invalid order data. {"position":30,"order_id":"MP-24030","reason":"total missing or invalid"}
+[2026-10-24T19:34:05+00:00] WARNING Invalid order item. {"order_id":"MP-24030","line":2,"issues":["ORDER_TOTAL_MISSING_OR_INVALID","INVALID_PRICE"]}
